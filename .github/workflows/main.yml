@@ -8,6 +8,6 @@ jobs:
     name: Deploying the application
     steps:
       - name: Create a change event
-        uses: actions/pagerduty-change-events-action@master
+        uses: PagerDuty/pagerduty-change-events-action@v1.0.0
         with:
           integration-key: 'c2334fd595f04d00c0ff7a204d8122d0'

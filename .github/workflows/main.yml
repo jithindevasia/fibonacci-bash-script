@@ -1,8 +1,10 @@
 on:
   pull_request:
-    branches:
-      - master
-jobs:
+     types:
+       - closed
+     branches:
+       - master
+jobs: 
   action-test-job:
     runs-on: ubuntu-latest
     name: Deploying the application

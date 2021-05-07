@@ -13,3 +13,5 @@ jobs:
         uses: PagerDuty/pagerduty-change-events-action@v1.0.0
         with:
           integration-key: '${{ secrets.PD_KLEY }}'
+      - name: Printing some random values
+        run: echo "Hello......"
